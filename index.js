@@ -45,4 +45,13 @@ program.parse(process.argv);
  * git reset --hard commitId 回退指定的某个版本
  * 工作区
  * 暂存区
+ * 
+ * git checkout -- file  将指定文件在工作区的修改撤销
+ * git reset HEAD file 将添加到暂存取的并且没有提交到版本库的内容撤销到工作区
+ * 
+ * 
+ * git remote add origin ssh地址  将本地仓库和远程仓库进行关联
+ * git pull  从别人的仓库拉取内容 
+ * git push 将自己仓库的内容推送到别人的仓库
+ * 一般情况下别人指的就是远程仓库（中央服务器）
  */
