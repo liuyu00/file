@@ -21,7 +21,7 @@ const promptList = [
     default: "" // 默认值
   }
 ]
-
+// 创建一个concat命令
 program
 .command('concat <type>')
 .description('合并指定类型文件')
