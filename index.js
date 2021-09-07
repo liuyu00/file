@@ -54,4 +54,6 @@ program.parse(process.argv);
  * git pull  从别人的仓库拉取内容 
  * git push 将自己仓库的内容推送到别人的仓库
  * 一般情况下别人指的就是远程仓库（中央服务器）
+ * 
+ * git clone ssh  将远程仓库的内容克隆到本地进行使用
  */
