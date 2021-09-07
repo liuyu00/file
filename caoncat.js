@@ -1,3 +1,4 @@
+const fs = require('fs')
 const concat = (answers) => {
   const files = fs.readdirSync(process.cwd())
   const concatFiles = files.filter((item) => {

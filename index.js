@@ -2,7 +2,7 @@
 const program = require('commander')
 const inquirer = require('inquirer')
 const concat = require('./caoncat')
-const fs = require('fs')
+
 program
 .version('0.0.1')
 .option('-C, --chdir <path>', 'change the working directory')
@@ -10,7 +10,9 @@ program
 .option('-T, --no-tests', 'ignore test hook')
 
 
-
+/**
+ * 问题列表
+ */
 const promptList = [
   {
     type: 'input',
