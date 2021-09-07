@@ -31,3 +31,17 @@ program
 
 // 解析参数
 program.parse(process.argv);
+
+/**
+ * git init 初始化仓库
+ * git add . 添加改动到仓库
+ * git commit -m '' 将改动记录到仓库生成版本
+ * git status 查看当前工作状态
+ * git log 查看当前版本以及之前版本的记录
+ * git reflog 查看当前版本以及之前之后的版本记录
+ * git reset --hard 回退到某一个版本
+ * git reset --hard HEAD^ 回退到上一个版本
+ * git reset --hard HEAD^^ 回退到上一个的上一个版本
+ * git reset --hard commitId 回退指定的某个版本
+ * 
+ */
