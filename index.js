@@ -56,4 +56,5 @@ program.parse(process.argv);
  * 一般情况下别人指的就是远程仓库（中央服务器）
  * 
  * git remote -v 查看当前本地仓库和远程仓库的关联
+ * git clone ssh  将远程仓库的内容克隆到本地进行使用
  */
