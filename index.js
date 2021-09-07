@@ -33,9 +33,9 @@ program
 program.parse(process.argv);
 
 /**
- * git init 初始化仓库
- * git add . 添加改动到仓库
- * git commit -m '' 将改动记录到仓库生成版本
+ * git init 初始化仓库,生成一个.git隐藏目录，作为git的仓库目录
+ * git add . 添加改动到仓库, 将工作区的内容添加到暂存区
+ * git commit -m '' 将改动记录到仓库生成版本  将暂存区的内容添加到分支
  * git status 查看当前工作状态
  * git log 查看当前版本以及之前版本的记录
  * git reflog 查看当前版本以及之前之后的版本记录
@@ -43,5 +43,5 @@ program.parse(process.argv);
  * git reset --hard HEAD^ 回退到上一个版本
  * git reset --hard HEAD^^ 回退到上一个的上一个版本
  * git reset --hard commitId 回退指定的某个版本
- * 
+ * 工作区
  */
