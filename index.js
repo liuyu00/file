@@ -57,4 +57,9 @@ program.parse(process.argv);
  * 
  * git remote -v 查看当前本地仓库和远程仓库的关联
  * git clone ssh  将远程仓库的内容克隆到本地进行使用
+ * 
+ * 
+ * git checkout 分支名字  切换分支
+ * git branch 分支名字  创建一个分支
+ * git checkout -b 分支名字 创建并且切换到这个分支
  */
