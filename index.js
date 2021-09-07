@@ -44,4 +44,5 @@ program.parse(process.argv);
  * git reset --hard HEAD^^ 回退到上一个的上一个版本
  * git reset --hard commitId 回退指定的某个版本
  * 工作区
+ * 暂存区
  */
