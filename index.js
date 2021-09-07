@@ -29,5 +29,5 @@ program
   inquirer.prompt(promptList).then(concat)
 })
 
-
+// 解析参数
 program.parse(process.argv);
